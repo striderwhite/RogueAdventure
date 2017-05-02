@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/load_slot_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/load_slot_1"
+        android:layout_centerVertical="true"
+        android:text="@string/slot2" 
+        android:onClick="load" />
+
+    <Button
+        android:id="@+id/load_slot_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/load_slot_2"
+        android:layout_below="@+id/load_slot_2"
+        android:layout_marginTop="76dp"
+        android:text="@string/slot3"
+        android:onClick="load" />
+
+    <Button
+        android:id="@+id/load_slot_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/load_slot_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:text="@string/slot1"
+        android:onClick="load" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rogue Adventure</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="up">↑</string>
+    <string name="down">↓</string>
+    <string name="left">←</string>
+    <string name="right">→</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="newGame">New Game</string>
+    <string name="slot1">Slot 1</string>
+    <string name="slot2">Slot 2</string>
+    <string name="slot3">Slot 3</string>
+    <string name="coolChar">○</string>
+    <string name="Hero">Hero</string>
+    <string name="Stat">Stat</string>
+    <string name="Value">Value</string>
+    <string name="Level">Level</string>
+    <string name="Strength">Strength</string>
+    <string name="Intelligence">Intelligence</string>
+    <string name="Dexterity">Dexterity</string>
+    <string name="maxDmg">Max Damage</string>
+    <string name="minDmg">Min Damage</string>
+    <string name="defense">Defense</string>
+    <string name="maxHealth">Max Health</string>
+    <string name="Health">Health</string>
+    <string name="Experience">Experience</string>
+
+</resources>

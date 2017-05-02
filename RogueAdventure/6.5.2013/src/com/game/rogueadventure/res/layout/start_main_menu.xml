@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/newGameBtn"
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:onClick="newGame"
+        android:text="@string/newGame" />
+
+    <Button
+        android:id="@+id/loadBtn"
+        android:layout_width="176dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/newGameBtn"
+        android:layout_below="@+id/newGameBtn"
+        android:layout_marginTop="22dp"
+        android:height="50dp"
+        android:onClick="load"
+        android:text="@string/load" /> 
+
+</RelativeLayout>
